@@ -9,6 +9,17 @@ of the Google logo to be 300px.
     Do you remember how we added spacing in the 
     cookie widget example?
     */
+
+    /*
+Challenge: 
+Add some space between the logo 
+and the search field.
+
+What are the two different ways 
+we can do this with margins?
+
+*/
+
 .main{
     margin-top: 100px;
 }
@@ -16,9 +27,11 @@ of the Google logo to be 300px.
 .logo-img{
     display: block;
     width: 300px;
+    margin-bottom: 20px;
 }
 
 .search-input{
     display: block;
     width: 400px;
+    
 }
