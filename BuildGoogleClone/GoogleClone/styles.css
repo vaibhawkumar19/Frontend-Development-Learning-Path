@@ -50,8 +50,17 @@ we can do this with margins?
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 10px;  
+}
 
+/*
+Challenge:
+Center the button and add some space above it
+*/
 
-    
+.btn {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
