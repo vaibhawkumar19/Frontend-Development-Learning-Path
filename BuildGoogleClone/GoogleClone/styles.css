@@ -68,11 +68,17 @@ we can do this with margins?
     So here's the background color we will use: #dfe1e5
     */
 
+    /*
+    Challenge:
+    Wrap the buttons in a flexbox div and center them.
+    Give the div a "btn-wrapper" class.
+    */
+
 .btn {
-    display: block;
+   
     margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 4px;
+    margin-right: 4px;
 
     font-size: 14px;
     border: none;
@@ -83,4 +89,9 @@ we can do this with margins?
     padding-bottom: 8px;
     padding-left: 16px;
     padding-right: 16px ;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
 }
