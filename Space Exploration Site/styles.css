@@ -24,6 +24,13 @@ PS: your layout will likely be disturbed by the <body>
 tag's default margin.
 */
 
+/*
+Challenge:
+Add a blurred border around the <h1> using
+the text-shadow technique you just learned. Set
+the blur to 4px and the color to black.
+*/
+
 body {
     margin: 0;
     color: #82a5ca;
@@ -31,7 +38,7 @@ body {
     font-family: 'Orbitron', sans-serif;
 }
    
-.hero {
+#hero {
     color: #bbc7d4;
     background-image: url(space-animation.gif);
     background-size: cover;
@@ -51,6 +58,11 @@ body {
 
 .underline {
     border-bottom: 4px solid white;
+    
+}
+
+#title {
+    text-shadow: 0px 0px 5px black
 }
 
 #main-logo {
