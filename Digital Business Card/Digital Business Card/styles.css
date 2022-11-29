@@ -25,9 +25,19 @@ Use what you've just learned to fix our card's broken
 column layout (make it two-column instead of four-column)
  --> */
 
+ /*
+Challenge:
+Create a utility class for the dotted blue border.
+Give the class to both flexbox children in the HTML.
+*/
+
 .card {
     border: 1px dotted blue;
     padding: 20px;
     display: flex;
+}
+
+.border-blue {
+    border: 1px dotted blue;
 }
 
