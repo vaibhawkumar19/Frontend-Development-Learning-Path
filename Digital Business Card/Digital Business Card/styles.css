@@ -48,6 +48,11 @@ should take care of applying it to both elements.
     blue - #ddebf8
     purple - #d8cefe
     */
+ /* 
+    Challenge:
+    Replace the two margin properties with a 
+    single margin shorthand.
+    */
 
 body {
     margin: 20px;
@@ -61,8 +66,7 @@ body {
 
 .card {
     width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     
     padding: 20px;
     display: flex;
