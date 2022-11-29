@@ -1,16 +1,8 @@
-body {
-    margin: 20px;
-}
-
 /*
 Challenge:
 Set the width of the image to 150px.
 PS: Use a class to select the img element.
 */
-
-.profile-img {
-    width: 150px;
-}
 
 /*
 Challenge:
@@ -41,6 +33,22 @@ Give the class to both flexbox children in the HTML.
     Challenge:
     Give the card a width of 400px wide and center it.
     */
+/*
+Challenge:
+Center the text in the <p> and <h4> elements.
+
+Note: you should only add ONE property, as inheritance 
+should take care of applying it to both elements.
+*/
+
+body {
+    margin: 20px;
+    
+}
+
+.profile-img {
+    width: 150px;
+}
 
 .card {
     width: 400px;
@@ -50,6 +58,7 @@ Give the class to both flexbox children in the HTML.
     padding: 20px;
     display: flex;
     justify-content:space-around;
+    text-align: center;
     
 }
 
