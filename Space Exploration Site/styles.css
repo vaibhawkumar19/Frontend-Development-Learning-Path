@@ -5,6 +5,12 @@ Challenge:
    Use a class to select the button.
 */
 
+/*
+Challenge 2:
+Select the logo using its "id", and reduce its
+width to a suitable level.
+*/
+
 body {
     color: white;
     background-image: url(space.avif);
@@ -18,4 +24,12 @@ body {
     background: white;
     border: none;
     font-family: inherit;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+}
+
+#main-logo {
+    width: 100px;
 }
