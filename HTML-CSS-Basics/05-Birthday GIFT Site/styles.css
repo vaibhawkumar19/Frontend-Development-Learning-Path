@@ -45,6 +45,15 @@ Challenge:
 PS: the image should be 400px wide.
 */
 
+/*
+Challenge:
+"Fix" the "gift-img" <div> so that it looks 
+like the provided design again.
+
+It needs a height (should be a square), a
+background image, and to be centered again.
+*/
+
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
@@ -97,8 +106,11 @@ h1, h2, h4, p {
     margin-top: 0;
 }
 .gift-cover-img {
+    margin: 0 auto;
     height: 300px;
     width: 300px;
     border: 7px solid white;
     border-radius: 10px;
+    background-image: url(gift-cover.jpg);
+    background-size: cover;
 }
