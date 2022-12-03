@@ -82,6 +82,19 @@ The only person as badass as you 💪
 
 */
 
+/*
+Challenge:
+Create the "cheers" GIFt section.
+
+Note: this GIFt should have a height of 200px. 
+Select the #gift-img-cheers id and override 
+the height that the element got from the 
+.gift-img class.
+
+Text: 
+This one's for you, my friend 🥂
+*/
+
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
@@ -157,4 +170,11 @@ h1, h2, h4, p {
 
 #gift-cover-badass:hover {
     background-image: url(https://i.pinimg.com/originals/b9/2d/ff/b92dff4da3281f07a64b52a15b017400.gif);
+}
+
+#gift-cover-cheers{
+    height: 200px;
+}
+#gift-cover-cheers:hover {
+    background-image: url(https://media1.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif?cid=ecf05e4780z142dmc62u6d6phgyladf6avf3vsi4hy8egug1&rid=giphy.gif&ct=g);
 }
