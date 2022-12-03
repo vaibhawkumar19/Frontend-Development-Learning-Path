@@ -19,6 +19,14 @@ pink: #EFB0C9
 blue: #a2d2ff
 white: #ffffff
 */
+/*
+Challenge:
+First, wrap the HTML elements in a <div> with an 
+id called "header".
+
+Then, select the "header" and use flexbox to achieve
+the layout you've been provided in the design slide.
+*/
 
 body {
     text-align: center;
@@ -46,4 +54,10 @@ h1, h2, h4, p {
 h2, h4 {
    
     background: #EFB0C9;
+}
+
+#header {
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
 }
