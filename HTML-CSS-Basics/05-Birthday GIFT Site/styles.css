@@ -34,6 +34,17 @@ Make the bday elements look like the
 provided design slide.
 */
 
+/*
+Challenge:
+1. Create a "gift-section" <div> that will wrap
+   all the elements for the first gift.
+2. Add the <h2>, <h3>, and <img> elements, and
+   give all of them their own classes.
+3. Style the elements according to the design.
+
+PS: the image should be 400px wide.
+*/
+
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
@@ -74,3 +85,20 @@ h1, h2, h4, p {
    align-items: center; 
 }
 
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+.gift-cover-img {
+    height: 300px;
+    width: 300px;
+    border: 7px solid white;
+    border-radius: 10px;
+}
