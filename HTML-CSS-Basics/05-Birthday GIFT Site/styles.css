@@ -53,6 +53,11 @@ like the provided design again.
 It needs a height (should be a square), a
 background image, and to be centered again.
 */
+/*
+Challenge:
+Swap the gift paper image out with
+the happy.gif when you hover over it!
+*/
 
 body {
     text-align: center;
@@ -113,4 +118,8 @@ h1, h2, h4, p {
     border-radius: 10px;
     background-image: url(gift-cover.jpg);
     background-size: cover;
+}
+
+.gift-cover-img:hover {
+    background-image: url(https://media4.giphy.com/media/YnBntKOgnUSBkV7bQH/giphy.gif?cid=ecf05e47gcznq5cyjfvhqolq0930rs7cq6duf68gev66gz5q&rid=giphy.gif&ct=g);
 }
