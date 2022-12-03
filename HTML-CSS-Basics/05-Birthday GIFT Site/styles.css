@@ -58,6 +58,29 @@ Challenge:
 Swap the gift paper image out with
 the happy.gif when you hover over it!
 */
+/*
+Challenge:
+Create the next GIFt (hot.gif). Its HTML structure 
+should be like the previous one, but without the 
+"gift-hint" element.
+
+However, now that you have multiple GIFts on the page,
+you cannot use the "gift-img" class to set the GIF 
+background-image(s) on :hover. Each GIFt will need a 
+unique id that controls which background image that 
+should be shown when hovering over the element.
+*/
+
+/*
+Challenge:
+Create the "genius" and "badass" GIFt sections.
+
+Texts:
+If I had to describe you with ONE word 👇
+
+The only person as badass as you 💪
+
+*/
 
 body {
     text-align: center;
@@ -120,6 +143,18 @@ h1, h2, h4, p {
     background-size: cover;
 }
 
-.gift-cover-img:hover {
+#gift-cover-happy:hover {
     background-image: url(https://media4.giphy.com/media/YnBntKOgnUSBkV7bQH/giphy.gif?cid=ecf05e47gcznq5cyjfvhqolq0930rs7cq6duf68gev66gz5q&rid=giphy.gif&ct=g);
+}
+
+#gift-cover-hot:hover {
+    background-image: url(https://media2.giphy.com/media/FbfTmoY3Re6d2xELcM/giphy.gif?cid=ecf05e47y7wy5y5n5hhsbrla2vvg4bb3vbjcyqhxxuv8em7e&rid=giphy.gif&ct=g);
+}
+
+#gift-cover-genius:hover {
+    background-image: url(https://media1.giphy.com/media/3o85xr9ZKY1wbbJXDW/giphy.gif?cid=ecf05e47cxcm2lx13ijbjsbz02m4yd6onnodgh7erd1oq1lg&rid=giphy.gif&ct=g);
+}
+
+#gift-cover-badass:hover {
+    background-image: url(https://i.pinimg.com/originals/b9/2d/ff/b92dff4da3281f07a64b52a15b017400.gif);
 }
