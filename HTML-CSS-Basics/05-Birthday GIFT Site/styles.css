@@ -28,6 +28,12 @@ Then, select the "header" and use flexbox to achieve
 the layout you've been provided in the design slide.
 */
 
+/*
+Challenge:
+Make the bday elements look like the
+provided design slide.
+*/
+
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
@@ -36,8 +42,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
 
 h1, h2, h4, p {
@@ -48,12 +52,20 @@ h1, h2, h4, p {
     width: 150px;
     border: 6px solid #EFB0C9;
     border-radius: 70px;
-
 }
 
-h2, h4 {
-   
+#birthday-age {
     background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#birthday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 #header {
@@ -61,3 +73,4 @@ h2, h4 {
    flex-direction: column;
    align-items: center; 
 }
+
