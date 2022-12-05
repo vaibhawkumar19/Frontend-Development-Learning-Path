@@ -38,7 +38,7 @@ body {
 
 }
 
-/* MIDDLE SECTION OF WEBPAGE */
+/* ACTIVITIES SECTION */
 
 img {
     width: 100px;
@@ -78,4 +78,31 @@ img {
 .activities-text {
     width: 198px;
     height: 54px;
+}
+
+/* GUIDE SECTION */
+
+#footer-container {
+    
+    width: 400px;
+    margin: 50px auto;
+    
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row-reverse;
+    text-align: center;
+
+    color: #1D3557;
+    background-color: #A8DADC;
+    border-bottom: 6px solid black ;  
+    box-shadow: 0px 5px 0px #1D3557;
+    border-radius: 10px;
+
+}
+
+.profile-picture {
+    width: 180px;
+    height: 230px;
+    
 }
