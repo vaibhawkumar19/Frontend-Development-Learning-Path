@@ -53,20 +53,29 @@ img {
 .middle-title {
     color: #1D3557;
     font-size: 24px;
-    margin: 39px 140px;
+    margin: 30px 140px;
 }
 
 .activities {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
+
 }
 
 .activities-img {
-    width: 103px;
-    height: 103px;
-    margin: 10px 30px 0 30px;
+    width: 100px;
+    height: 100px;
+    margin: 0px 30px 0 30px;
     border-radius: 70px;
 
+}
+
+.activities-title {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.activities-text {
+    width: 198px;
+    height: 54px;
 }
